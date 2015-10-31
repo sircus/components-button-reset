@@ -1,7 +1,7 @@
 {
   "name": "sircus-components-button-reset",
   "description": "Module For Button Reset Modifier.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
     "css",
