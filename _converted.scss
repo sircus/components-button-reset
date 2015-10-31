@@ -1,23 +1,20 @@
-
-// Converted Variables
-
 $ButtonReset-color: $g-primary !default;
 $ButtonReset-hover-color: $g-primary-dark !default;
 
 
 /*　sircus-components-button-reset
 ======================================== */
-
 .Button--reset {
-  background-color:transparent;
+  background-color: transparent;
   border-color: transparent;
-  color:$ButtonReset-color;
+  color: $ButtonReset-color;
 }
+
 .Button--reset:hover,
 .Button--reset:focus,
 .Button--reset:active,
 .Button--reset.is-active {
   border-color: transparent;
-  color:$ButtonReset-hover-color;
+  color: $ButtonReset-hover-color;
   text-decoration: underline;
 }

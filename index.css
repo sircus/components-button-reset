@@ -1,21 +1,21 @@
 :root {
-  --ButtonReset-color:           var(--g-primary);
-  --ButtonReset-hover-color:     var(--g-primary-dark);
+  --ButtonReset-color: var(--g-primary);
+  --ButtonReset-hover-color: var(--g-primary-dark);
 }
 
 /*　sircus-components-button-reset
 ======================================== */
-
 .Button--reset {
-  background-color:transparent;
+  background-color: transparent;
   border-color: transparent;
-  color:var(--ButtonReset-color);
+  color: var(--ButtonReset-color);
 }
+
 .Button--reset:hover,
 .Button--reset:focus,
 .Button--reset:active,
 .Button--reset.is-active {
   border-color: transparent;
-  color:var(--ButtonReset-hover-color);
+  color: var(--ButtonReset-hover-color);
   text-decoration: underline;
 }
