@@ -1,4 +1,5 @@
 $ButtonReset-color: $g-primary !default;
+$ButtonReset-fill: $g-gray-20 !default;
 $ButtonReset-hover-color: $g-primary-dark !default;
 
 
@@ -14,6 +15,7 @@ $ButtonReset-hover-color: $g-primary-dark !default;
 .Button--reset:focus,
 .Button--reset:active,
 .Button--reset.is-active {
+  background-color: $ButtonReset-fill;
   border-color: transparent;
   color: $ButtonReset-hover-color;
   text-decoration: underline;

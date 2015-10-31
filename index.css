@@ -1,5 +1,6 @@
 :root {
   --ButtonReset-color: var(--g-primary);
+  --ButtonReset-fill: var(--g-gray-20);
   --ButtonReset-hover-color: var(--g-primary-dark);
 }
 
@@ -15,6 +16,7 @@
 .Button--reset:focus,
 .Button--reset:active,
 .Button--reset.is-active {
+  background-color: var(--ButtonReset-fill);
   border-color: transparent;
   color: var(--ButtonReset-hover-color);
   text-decoration: underline;
