@@ -19,5 +19,4 @@
   background-color: var(--ButtonReset-fill);
   border-color: transparent;
   color: var(--ButtonReset-hover-color);
-  text-decoration: underline;
 }
