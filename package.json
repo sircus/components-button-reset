@@ -1,17 +1,17 @@
 {
   "name": "sircus-components-button-reset",
-  "description": "css reset modifier module for Sircus Button component.",
+  "description": "Module For Button Reset Modifier.",
   "version": "0.0.1",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "scalabe",
-    "design",
     "css",
-    "cssnext",
+    "design",
+    "modular",
+    "scalable",
     "rwd"
   ],
   "author": {
-    "name": "Yasuyuki Enomoto",
+    "name": "blivesta",
     "url": "http://blivesta.com"
   },
   "license": "MIT",
